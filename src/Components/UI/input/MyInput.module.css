@@ -1,0 +1,12 @@
+.inputText{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: black;
+    border:1px solid  yellow;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}

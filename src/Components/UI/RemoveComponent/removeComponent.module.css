@@ -1,0 +1,47 @@
+*{
+    /*box-sizing: border-box;*/
+}
+
+.testObsClose{
+    display: none;
+}
+.testObs{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(14, 13, 13, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.removeBlockQuestion{
+    width: 300px;
+    height: 200px;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+    color: #008594;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin:20px;
+    align-items: center;
+}
+.buttons>button{
+    margin: 30px;
+    padding: 10px 20px;
+
+    background: inherit;
+    color:#174348;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+}
+.buttons>button:hover{
+    outline:1px solid #008594;
+}
