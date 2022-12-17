@@ -7,8 +7,8 @@ function PostComponents(props) {
        <>
            {
                props.posts.map((postItem,index)=>{
-                   console.log(postItem)
-                   return(<Post remove={props.remove}  number={index + 1} post={postItem} key={postItem.id}/>)
+                   // console.log(postItem)
+                   return(<Post   funcBlockEdit={props.funcBlockEdit} remove={props.remove}  number={index + 1} post={postItem} key={postItem.id}/>)
 
                })
            }
